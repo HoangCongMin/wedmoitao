@@ -1,0 +1,90 @@
+body{
+  box-sizing: border-box;
+  background-color: blanchedalmond;
+}
+#hedder{
+  display: inline-flex;
+  width: 100%;
+}
+#menu{
+  display: inline-flex;
+  list-style: none;
+}
+.item{
+margin-left: 20px;
+font-size: 20px;
+/*padding-top: 22px;*/
+/*  padding-left: 30px;*/
+  padding: 20px;
+color: darkorange;
+}
+.item:hover{
+  border-bottom: 2px solid coral;
+}
+
+#tieudeh1{
+  text-align: center;
+  color: darkorange;
+}
+input{
+  margin: auto;
+}
+#sanpham1{
+  display: inline-flex;
+}
+#sanpham2{
+  display: inline-flex;
+}
+#sanpham3{
+  display: inline-flex;
+}
+footer{
+  display: inline-flex;
+  width: 100%;
+
+}
+#footer1{
+  width: 70%;
+  display: inline-flex;
+}
+.ft1{
+  padding: 30px;
+  width: 30%;
+
+}
+#footer2{
+  width: 30%;
+  padding: 50px;
+  justify-content: flex-end;
+}
+#ft2 {
+  width: 30%;
+}
+
+#ul1 {
+  padding: 0;
+}
+#ul1 li {
+  width: 100px;
+}
+#ul2{
+  padding: 0;
+}
+#ul2 li {
+  width: 100px;
+}
+.themdo{
+  background-color: burlywood;
+  text-align: center;
+
+}
+ .tthemdo{
+  display: inline-flex;
+   text-align: center;
+   margin-left: .5rem;
+}
+.tthemdo .tien{
+  margin: auto;
+  color:darkorange;
+  padding: 10px;
+}
